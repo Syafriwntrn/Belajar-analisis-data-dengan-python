@@ -6,7 +6,7 @@ import seaborn as sns
 
 @st.cache_resource
 def load_data():
-    data = pd.read_csv("../data/day.csv")
+    data = pd.read_csv("day.csv")
     return data
 
 
